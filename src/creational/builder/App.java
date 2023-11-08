@@ -10,8 +10,6 @@ public class App {
          * StringBuilder is builder pattern and when calling toString() on it will return String
          *
         * */
-
-
         // here you can determine only the needed fields otherwise neglect them
         var customerInfo = new CustomerInfo
                 .Builder("required data","required data")
