@@ -1,7 +1,7 @@
 package behaviour.observer;
 
 public interface WeatherObservable {
-    public void register(DisplayableObserver observer);
-    public void unregister(DisplayableObserver observer);
-    public void update();
+     void register(DisplayableObserver observer);
+     void unregister(DisplayableObserver observer);
+     void update();
 }

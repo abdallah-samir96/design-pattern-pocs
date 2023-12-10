@@ -22,9 +22,7 @@ public class WeatherStation implements WeatherObservable {
 
     @Override
     public void update() {
-        observers.forEach((observer)->{
-            observer.update("temp:" + temperature);
-        });
+        observers.forEach((observer)-> observer.update("temp:" + temperature));
     }
     public void setTemperature(long temperature) {
         this.temperature = temperature;
