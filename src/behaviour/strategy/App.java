@@ -13,10 +13,13 @@ public class App {
         /*
         * define A family of Algorithms , encapsulate each of them and make them interchangeable
         * we need to inject the behaviour instead of using inheritance(constructor injection, setter injection).
-        * favor composition over inheritance
+        * favor composition over inheritance(Here will be the interface, contract)
+        *
         * inheritance may lead to duplication when we have 2 subclasses
         * with the same behaviour in specific method
-        *
+        * There is no way to share same code base horizontally
+        * examples(Collection frameworks in Sorting)
+        * sorting methods not included in the Concrete class, but it's Behaviour you can add it any time
         * Here composition is right solution and separate the behaviour to be reusable
         *
         * */
